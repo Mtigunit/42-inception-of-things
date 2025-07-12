@@ -127,7 +127,7 @@ vagrant ssh ServerWorker
 ### 2. Deploy K3s & Apps
 ```bash
 cd ../p2
-kubectl apply -f manifests/
+vagrant up
 ```
 
 ### 3. Setup K3d & Argo CD
